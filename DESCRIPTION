@@ -1,0 +1,21 @@
+Package: platereaderr
+Title: Parse and Process Plate Reader OD Measurements
+Version: 0.1.0
+Authors@R: 
+    person("Kristóf", "Koncz", email = "kristofkoncz2002@azet.sk", role = c("aut", "cre"))
+Description: Imports and parses the raw OD measurements from the plate reader, 
+  also splits the 384 well plate into 4 smaller 96 well paltes, and
+  provide the standard additive layout to annontate the measurements.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr,
+    purrr,
+    readr,
+    stringr,
+    tibble
+Depends: 
+    R (>= 4.1.0)
+LazyData: true
